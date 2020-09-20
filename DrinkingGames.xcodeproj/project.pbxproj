@@ -32,6 +32,7 @@
 		286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */; };
 		286B193A2517C5E000D30546 /* PulseAn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19392517C5E000D30546 /* PulseAn.swift */; };
 		28706B002517DA70007572F0 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706AFF2517DA70007572F0 /* BottomBar.swift */; };
+		28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B082517DD9F007572F0 /* GamePlayButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiersCo.swift; sourceTree = "<group>"; };
 		286B19392517C5E000D30546 /* PulseAn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAn.swift; sourceTree = "<group>"; };
 		28706AFF2517DA70007572F0 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		28706B082517DD9F007572F0 /* GamePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 		28706AFE2517D9ED007572F0 /* GameSelection */ = {
 			isa = PBXGroup;
 			children = (
+				28706B082517DD9F007572F0 /* GamePlayButton.swift */,
 				28706AFF2517DA70007572F0 /* BottomBar.swift */,
 			);
 			path = GameSelection;
@@ -439,6 +442,7 @@
 				286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */,
 				286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */,
 				286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */,
+				28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */,
 				286B18E72517BD9600D30546 /* FontsEn.swift in Sources */,
 				286B18C02517B9FF00D30546 /* ButtonActionDelegate.swift in Sources */,
 				286B18FF2517BE3500D30546 /* NeverMindRoundEn.swift in Sources */,

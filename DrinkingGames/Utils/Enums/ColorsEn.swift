@@ -49,6 +49,7 @@ enum APPColors {
     case round1TitleShadow
     case round2TitleShadow
     case round3TitleShadow
+    case gameplayBtnBaseGradient
     
     var value: Color {
         get{
@@ -129,6 +130,8 @@ enum APPColors {
                     return Color(red: 0, green: 26 / 255, blue: 25 / 255)
                 case .round3TitleShadow:
                     return Color(red: 22 / 255, green: 0, blue: 0)
+                case .gameplayBtnBaseGradient:
+                    return Color(red: 237 / 255, green: 175 / 255, blue: 67 / 255)
             }
         }
     }

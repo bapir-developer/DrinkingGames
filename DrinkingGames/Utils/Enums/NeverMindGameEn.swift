@@ -18,13 +18,13 @@ enum NeverMindGame: String{
    func icon() -> String{
         switch self {
             case .tapRoulette:
-                return "TapRouletteIcon"
+                return "IconTapRoulette"
             case .neverMind:
-                return "beercheers"
+                return "IconNeverMind"
             case .fortuneWheel:
-                return "FortuneWheelIcon"
+                return "IconFortuneWheel"
             case .luckyBottle:
-                return "LuckyBottleIcon"
+                return "IconLuckyBottle"
         }
     }
     
