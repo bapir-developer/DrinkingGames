@@ -14,6 +14,6 @@ enum language: String{
     case Germany  = "Germany"
     
     func flag() -> String {
-       "\(rawValue)Flag"
+       "Flag\(rawValue)"
     }
 }

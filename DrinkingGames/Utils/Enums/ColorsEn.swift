@@ -51,6 +51,7 @@ enum APPColors {
     case round3TitleShadow
     case gameplayBtnBaseGradient
     case nevermindGamePlayButtonTitle
+    case langSelectionBorder
     
     var value: Color {
         get{
@@ -135,6 +136,8 @@ enum APPColors {
                     return Color(red: 237 / 255, green: 175 / 255, blue: 67 / 255)
                 case .nevermindGamePlayButtonTitle:
                     return Color(red: 20 / 255, green: 26 / 255, blue: 25 / 255)
+                case .langSelectionBorder:
+                    return Color(red: 252 / 255, green: 172 / 255, blue: 78 / 255)
             }
         }
     }

@@ -35,6 +35,7 @@
 		28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B082517DD9F007572F0 /* GamePlayButton.swift */; };
 		28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B112517E128007572F0 /* NeverMindPlayButton.swift */; };
 		28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B182517E420007572F0 /* AddingPlayerV.swift */; };
+		28706B232517E5FF007572F0 /* LangSelectionV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B222517E5FF007572F0 /* LangSelectionV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		28706B082517DD9F007572F0 /* GamePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayButton.swift; sourceTree = "<group>"; };
 		28706B112517E128007572F0 /* NeverMindPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindPlayButton.swift; sourceTree = "<group>"; };
 		28706B182517E420007572F0 /* AddingPlayerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlayerV.swift; sourceTree = "<group>"; };
+		28706B222517E5FF007572F0 /* LangSelectionV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangSelectionV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 		28706AFE2517D9ED007572F0 /* GameSelection */ = {
 			isa = PBXGroup;
 			children = (
+				28706B222517E5FF007572F0 /* LangSelectionV.swift */,
 				28706B112517E128007572F0 /* NeverMindPlayButton.swift */,
 				28706B082517DD9F007572F0 /* GamePlayButton.swift */,
 				28706AFF2517DA70007572F0 /* BottomBar.swift */,
@@ -463,6 +466,7 @@
 				286B18CF2517BAC600D30546 /* AnchorEx.swift in Sources */,
 				28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */,
 				286B18B32517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift in Sources */,
+				28706B232517E5FF007572F0 /* LangSelectionV.swift in Sources */,
 				286B193A2517C5E000D30546 /* PulseAn.swift in Sources */,
 				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
 				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
