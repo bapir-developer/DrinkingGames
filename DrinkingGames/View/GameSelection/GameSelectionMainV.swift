@@ -34,7 +34,7 @@ struct GameSelectionMainV: View {
             .padding(.leading, 40)
     }
     private var permiumeButton: some View {
-        Image("purchIcon")
+        Image("ButtonPurch")
             .padding(.trailing, 40)
             .scaleEffect(animationEffect ? 0.9 : 1.1)
             .opacity(animationEffect ? 0.8 : 1)

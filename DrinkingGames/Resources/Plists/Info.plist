@@ -46,5 +46,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rubik-Black.ttf</string>
+		<string>Rubik-BlackItalic.ttf</string>
+		<string>Rubik-Bold.tff</string>
+		<string>Rubik-BoldItalic.tff</string>
+		<string>Rubik-Italic.tff</string>
+		<string>Rubik-Light.tff</string>
+		<string>Rubik-LightItalic.tff</string>
+		<string>Rubik-Medium.tff</string>
+		<string>Rubik-MediumItalic.tff</string>
+		<string>Rubik-Regular.tff</string>
+	</array>
 </dict>
 </plist>
