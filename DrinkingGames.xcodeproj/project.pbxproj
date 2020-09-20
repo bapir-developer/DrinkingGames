@@ -33,6 +33,8 @@
 		286B193A2517C5E000D30546 /* PulseAn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19392517C5E000D30546 /* PulseAn.swift */; };
 		28706B002517DA70007572F0 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706AFF2517DA70007572F0 /* BottomBar.swift */; };
 		28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B082517DD9F007572F0 /* GamePlayButton.swift */; };
+		28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B112517E128007572F0 /* NeverMindPlayButton.swift */; };
+		28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B182517E420007572F0 /* AddingPlayerV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		286B19392517C5E000D30546 /* PulseAn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAn.swift; sourceTree = "<group>"; };
 		28706AFF2517DA70007572F0 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		28706B082517DD9F007572F0 /* GamePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayButton.swift; sourceTree = "<group>"; };
+		28706B112517E128007572F0 /* NeverMindPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindPlayButton.swift; sourceTree = "<group>"; };
+		28706B182517E420007572F0 /* AddingPlayerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlayerV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,7 @@
 			children = (
 				28706AFD2517D9E4007572F0 /* LunchScreen */,
 				28706AFE2517D9ED007572F0 /* GameSelection */,
+				28706B172517E3F6007572F0 /* NeverMind */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,10 +309,19 @@
 		28706AFE2517D9ED007572F0 /* GameSelection */ = {
 			isa = PBXGroup;
 			children = (
+				28706B112517E128007572F0 /* NeverMindPlayButton.swift */,
 				28706B082517DD9F007572F0 /* GamePlayButton.swift */,
 				28706AFF2517DA70007572F0 /* BottomBar.swift */,
 			);
 			path = GameSelection;
+			sourceTree = "<group>";
+		};
+		28706B172517E3F6007572F0 /* NeverMind */ = {
+			isa = PBXGroup;
+			children = (
+				28706B182517E420007572F0 /* AddingPlayerV.swift */,
+			);
+			path = NeverMind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +461,7 @@
 				286B18C02517B9FF00D30546 /* ButtonActionDelegate.swift in Sources */,
 				286B18FF2517BE3500D30546 /* NeverMindRoundEn.swift in Sources */,
 				286B18CF2517BAC600D30546 /* AnchorEx.swift in Sources */,
+				28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */,
 				286B18B32517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift in Sources */,
 				286B193A2517C5E000D30546 /* PulseAn.swift in Sources */,
 				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
@@ -455,6 +470,7 @@
 				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
 				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
 				286B18852517B7E400D30546 /* ContentView.swift in Sources */,
+				28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */,
 				286B18832517B7E400D30546 /* DrinkingGamesApp.swift in Sources */,
 				286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */,
 				286B18E22517BD2A00D30546 /* DevicesEn.swift in Sources */,
