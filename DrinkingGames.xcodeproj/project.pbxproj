@@ -31,6 +31,7 @@
 		286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19172517C06A00D30546 /* DeviceAttributesCo.swift */; };
 		286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */; };
 		286B193A2517C5E000D30546 /* PulseAn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19392517C5E000D30546 /* PulseAn.swift */; };
+		28706B002517DA70007572F0 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706AFF2517DA70007572F0 /* BottomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		286B19172517C06A00D30546 /* DeviceAttributesCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAttributesCo.swift; sourceTree = "<group>"; };
 		286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiersCo.swift; sourceTree = "<group>"; };
 		286B19392517C5E000D30546 /* PulseAn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAn.swift; sourceTree = "<group>"; };
+		28706AFF2517DA70007572F0 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +138,6 @@
 				286B18C52517BA5000D30546 /* ViewModel */,
 				286B18C42517BA4900D30546 /* Resources */,
 				286B18B02517B93500D30546 /* Utils */,
-				286B18822517B7E400D30546 /* DrinkingGamesApp.swift */,
 				286B18842517B7E400D30546 /* ContentView.swift */,
 				286B18882517B7E400D30546 /* Preview Content */,
 			);
@@ -204,6 +205,7 @@
 		286B18C52517BA5000D30546 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				28706AF92517D89C007572F0 /* LifeCycle */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -211,6 +213,8 @@
 		286B18C62517BA5800D30546 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				28706AFD2517D9E4007572F0 /* LunchScreen */,
+				28706AFE2517D9ED007572F0 /* GameSelection */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +282,29 @@
 				286B188B2517B7E400D30546 /* Info.plist */,
 			);
 			path = Plists;
+			sourceTree = "<group>";
+		};
+		28706AF92517D89C007572F0 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				286B18822517B7E400D30546 /* DrinkingGamesApp.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		28706AFD2517D9E4007572F0 /* LunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LunchScreen;
+			sourceTree = "<group>";
+		};
+		28706AFE2517D9ED007572F0 /* GameSelection */ = {
+			isa = PBXGroup;
+			children = (
+				28706AFF2517DA70007572F0 /* BottomBar.swift */,
+			);
+			path = GameSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +447,7 @@
 				286B193A2517C5E000D30546 /* PulseAn.swift in Sources */,
 				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
 				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
+				28706B002517DA70007572F0 /* BottomBar.swift in Sources */,
 				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
 				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
 				286B18852517B7E400D30546 /* ContentView.swift in Sources */,
