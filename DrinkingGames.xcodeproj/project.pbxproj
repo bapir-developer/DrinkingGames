@@ -13,6 +13,23 @@
 		286B188A2517B7E400D30546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286B18892517B7E400D30546 /* Preview Assets.xcassets */; };
 		286B18952517B7E500D30546 /* DrinkingGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18942517B7E500D30546 /* DrinkingGamesTests.swift */; };
 		286B18A02517B7E500D30546 /* DrinkingGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B189F2517B7E500D30546 /* DrinkingGamesUITests.swift */; };
+		286B18B32517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18B22517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift */; };
+		286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18BA2517B9DB00D30546 /* LangSelectionDelegate.swift */; };
+		286B18C02517B9FF00D30546 /* ButtonActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18BF2517B9FF00D30546 /* ButtonActionDelegate.swift */; };
+		286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18C82517BA7600D30546 /* PlayerManager.swift */; };
+		286B18CF2517BAC600D30546 /* AnchorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18CE2517BAC600D30546 /* AnchorEx.swift */; };
+		286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18D62517BB6400D30546 /* UIViewEx.swift */; };
+		286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18DC2517BBAF00D30546 /* ColorsEn.swift */; };
+		286B18E22517BD2A00D30546 /* DevicesEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18E12517BD2A00D30546 /* DevicesEn.swift */; };
+		286B18E72517BD9600D30546 /* FontsEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18E62517BD9600D30546 /* FontsEn.swift */; };
+		286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18F32517BDD200D30546 /* FortuneWheelEn.swift */; };
+		286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18F92517BE1400D30546 /* NeverMindGameEn.swift */; };
+		286B18FF2517BE3500D30546 /* NeverMindRoundEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18FE2517BE3500D30546 /* NeverMindRoundEn.swift */; };
+		286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19062517BEA600D30546 /* LanguagesEn.swift */; };
+		286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B190B2517BEE200D30546 /* NeverMindModeEn.swift */; };
+		286B19132517C05900D30546 /* UserDefaultsCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19122517C05900D30546 /* UserDefaultsCo.swift */; };
+		286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B19172517C06A00D30546 /* DeviceAttributesCo.swift */; };
+		286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,23 @@
 		286B189B2517B7E500D30546 /* DrinkingGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkingGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286B189F2517B7E500D30546 /* DrinkingGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingGamesUITests.swift; sourceTree = "<group>"; };
 		286B18A12517B7E500D30546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286B18B22517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnPlayerManagerDelegate.swift; sourceTree = "<group>"; };
+		286B18BA2517B9DB00D30546 /* LangSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangSelectionDelegate.swift; sourceTree = "<group>"; };
+		286B18BF2517B9FF00D30546 /* ButtonActionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonActionDelegate.swift; sourceTree = "<group>"; };
+		286B18C82517BA7600D30546 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		286B18CE2517BAC600D30546 /* AnchorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorEx.swift; sourceTree = "<group>"; };
+		286B18D62517BB6400D30546 /* UIViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		286B18DC2517BBAF00D30546 /* ColorsEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsEn.swift; sourceTree = "<group>"; };
+		286B18E12517BD2A00D30546 /* DevicesEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesEn.swift; sourceTree = "<group>"; };
+		286B18E62517BD9600D30546 /* FontsEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsEn.swift; sourceTree = "<group>"; };
+		286B18F32517BDD200D30546 /* FortuneWheelEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelEn.swift; sourceTree = "<group>"; };
+		286B18F92517BE1400D30546 /* NeverMindGameEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindGameEn.swift; sourceTree = "<group>"; };
+		286B18FE2517BE3500D30546 /* NeverMindRoundEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindRoundEn.swift; sourceTree = "<group>"; };
+		286B19062517BEA600D30546 /* LanguagesEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesEn.swift; sourceTree = "<group>"; };
+		286B190B2517BEE200D30546 /* NeverMindModeEn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindModeEn.swift; sourceTree = "<group>"; };
+		286B19122517C05900D30546 /* UserDefaultsCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCo.swift; sourceTree = "<group>"; };
+		286B19172517C06A00D30546 /* DeviceAttributesCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAttributesCo.swift; sourceTree = "<group>"; };
+		286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiersCo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +129,11 @@
 		286B18812517B7E400D30546 /* DrinkingGames */ = {
 			isa = PBXGroup;
 			children = (
+				286B18C72517BA5D00D30546 /* Model */,
+				286B18C62517BA5800D30546 /* View */,
+				286B18C52517BA5000D30546 /* ViewModel */,
+				286B18C42517BA4900D30546 /* Resources */,
+				286B18B02517B93500D30546 /* Utils */,
 				286B18822517B7E400D30546 /* DrinkingGamesApp.swift */,
 				286B18842517B7E400D30546 /* ContentView.swift */,
 				286B18862517B7E400D30546 /* Assets.xcassets */,
@@ -128,6 +167,98 @@
 				286B18A12517B7E500D30546 /* Info.plist */,
 			);
 			path = DrinkingGamesUITests;
+			sourceTree = "<group>";
+		};
+		286B18B02517B93500D30546 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				286B19112517C04100D30546 /* Constants */,
+				286B19102517BF3F00D30546 /* CustomModifiers */,
+				286B18DB2517BB9400D30546 /* Enum */,
+				286B18CD2517BA9F00D30546 /* Extensions */,
+				286B18B12517B96D00D30546 /* Protocls */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		286B18B12517B96D00D30546 /* Protocls */ = {
+			isa = PBXGroup;
+			children = (
+				286B18B22517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift */,
+				286B18BA2517B9DB00D30546 /* LangSelectionDelegate.swift */,
+				286B18BF2517B9FF00D30546 /* ButtonActionDelegate.swift */,
+			);
+			path = Protocls;
+			sourceTree = "<group>";
+		};
+		286B18C42517BA4900D30546 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		286B18C52517BA5000D30546 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		286B18C62517BA5800D30546 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		286B18C72517BA5D00D30546 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				286B18C82517BA7600D30546 /* PlayerManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		286B18CD2517BA9F00D30546 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				286B18CE2517BAC600D30546 /* AnchorEx.swift */,
+				286B18D62517BB6400D30546 /* UIViewEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		286B18DB2517BB9400D30546 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				286B18DC2517BBAF00D30546 /* ColorsEn.swift */,
+				286B18E12517BD2A00D30546 /* DevicesEn.swift */,
+				286B18E62517BD9600D30546 /* FontsEn.swift */,
+				286B18F32517BDD200D30546 /* FortuneWheelEn.swift */,
+				286B19062517BEA600D30546 /* LanguagesEn.swift */,
+				286B18F92517BE1400D30546 /* NeverMindGameEn.swift */,
+				286B190B2517BEE200D30546 /* NeverMindModeEn.swift */,
+				286B18FE2517BE3500D30546 /* NeverMindRoundEn.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		286B19102517BF3F00D30546 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		286B19112517C04100D30546 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				286B19172517C06A00D30546 /* DeviceAttributesCo.swift */,
+				286B191C2517C08300D30546 /* ReuseIdentifiersCo.swift */,
+				286B19122517C05900D30546 /* UserDefaultsCo.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +390,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */,
+				286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */,
+				286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */,
+				286B18E72517BD9600D30546 /* FontsEn.swift in Sources */,
+				286B18C02517B9FF00D30546 /* ButtonActionDelegate.swift in Sources */,
+				286B18FF2517BE3500D30546 /* NeverMindRoundEn.swift in Sources */,
+				286B18CF2517BAC600D30546 /* AnchorEx.swift in Sources */,
+				286B18B32517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift in Sources */,
+				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
+				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
+				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
+				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
 				286B18852517B7E400D30546 /* ContentView.swift in Sources */,
 				286B18832517B7E400D30546 /* DrinkingGamesApp.swift in Sources */,
+				286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */,
+				286B18E22517BD2A00D30546 /* DevicesEn.swift in Sources */,
+				286B19132517C05900D30546 /* UserDefaultsCo.swift in Sources */,
+				286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */,
+				286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
