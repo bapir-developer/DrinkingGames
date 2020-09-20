@@ -36,6 +36,11 @@
 		28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B112517E128007572F0 /* NeverMindPlayButton.swift */; };
 		28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B182517E420007572F0 /* AddingPlayerV.swift */; };
 		28706B232517E5FF007572F0 /* LangSelectionV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B222517E5FF007572F0 /* LangSelectionV.swift */; };
+		28706B302517E878007572F0 /* TapRouletteMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B2F2517E878007572F0 /* TapRouletteMainV.swift */; };
+		28706B382517E882007572F0 /* LuckyBottleMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B372517E882007572F0 /* LuckyBottleMainV.swift */; };
+		28706B3D2517E88E007572F0 /* FortuneWheelMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B3C2517E88E007572F0 /* FortuneWheelMainV.swift */; };
+		28706B432517E8BD007572F0 /* GameSelectionMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B422517E8BD007572F0 /* GameSelectionMainV.swift */; };
+		28706B4A2517E986007572F0 /* VisualEffectV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B492517E986007572F0 /* VisualEffectV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +96,11 @@
 		28706B112517E128007572F0 /* NeverMindPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindPlayButton.swift; sourceTree = "<group>"; };
 		28706B182517E420007572F0 /* AddingPlayerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlayerV.swift; sourceTree = "<group>"; };
 		28706B222517E5FF007572F0 /* LangSelectionV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangSelectionV.swift; sourceTree = "<group>"; };
+		28706B2F2517E878007572F0 /* TapRouletteMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRouletteMainV.swift; sourceTree = "<group>"; };
+		28706B372517E882007572F0 /* LuckyBottleMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyBottleMainV.swift; sourceTree = "<group>"; };
+		28706B3C2517E88E007572F0 /* FortuneWheelMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelMainV.swift; sourceTree = "<group>"; };
+		28706B422517E8BD007572F0 /* GameSelectionMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionMainV.swift; sourceTree = "<group>"; };
+		28706B492517E986007572F0 /* VisualEffectV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,9 +231,13 @@
 		286B18C62517BA5800D30546 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				28706B472517E948007572F0 /* Global */,
 				28706AFD2517D9E4007572F0 /* LunchScreen */,
 				28706AFE2517D9ED007572F0 /* GameSelection */,
 				28706B172517E3F6007572F0 /* NeverMind */,
+				28706B2B2517E800007572F0 /* FortuneWheel */,
+				28706B2C2517E815007572F0 /* LuckyBottle */,
+				28706B2D2517E824007572F0 /* TapRoulette */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +325,7 @@
 		28706AFE2517D9ED007572F0 /* GameSelection */ = {
 			isa = PBXGroup;
 			children = (
+				28706B422517E8BD007572F0 /* GameSelectionMainV.swift */,
 				28706B222517E5FF007572F0 /* LangSelectionV.swift */,
 				28706B112517E128007572F0 /* NeverMindPlayButton.swift */,
 				28706B082517DD9F007572F0 /* GamePlayButton.swift */,
@@ -325,6 +340,46 @@
 				28706B182517E420007572F0 /* AddingPlayerV.swift */,
 			);
 			path = NeverMind;
+			sourceTree = "<group>";
+		};
+		28706B2B2517E800007572F0 /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				28706B3C2517E88E007572F0 /* FortuneWheelMainV.swift */,
+			);
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+		28706B2C2517E815007572F0 /* LuckyBottle */ = {
+			isa = PBXGroup;
+			children = (
+				28706B372517E882007572F0 /* LuckyBottleMainV.swift */,
+			);
+			path = LuckyBottle;
+			sourceTree = "<group>";
+		};
+		28706B2D2517E824007572F0 /* TapRoulette */ = {
+			isa = PBXGroup;
+			children = (
+				28706B2F2517E878007572F0 /* TapRouletteMainV.swift */,
+			);
+			path = TapRoulette;
+			sourceTree = "<group>";
+		};
+		28706B472517E948007572F0 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				28706B482517E95A007572F0 /* Effects */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		28706B482517E95A007572F0 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				28706B492517E986007572F0 /* VisualEffectV.swift */,
+			);
+			path = Effects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,7 +512,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */,
+				28706B382517E882007572F0 /* LuckyBottleMainV.swift in Sources */,
 				286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */,
+				28706B4A2517E986007572F0 /* VisualEffectV.swift in Sources */,
 				286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */,
 				28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */,
 				286B18E72517BD9600D30546 /* FontsEn.swift in Sources */,
@@ -471,7 +528,9 @@
 				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
 				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
 				28706B002517DA70007572F0 /* BottomBar.swift in Sources */,
+				28706B432517E8BD007572F0 /* GameSelectionMainV.swift in Sources */,
 				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
+				28706B3D2517E88E007572F0 /* FortuneWheelMainV.swift in Sources */,
 				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
 				286B18852517B7E400D30546 /* ContentView.swift in Sources */,
 				28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */,
@@ -481,6 +540,7 @@
 				286B19132517C05900D30546 /* UserDefaultsCo.swift in Sources */,
 				286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */,
 				286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */,
+				28706B302517E878007572F0 /* TapRouletteMainV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
