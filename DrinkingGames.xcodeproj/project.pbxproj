@@ -51,6 +51,7 @@
 		28706B652517EB1D007572F0 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28706B5B2517EB1D007572F0 /* Rubik-Light.ttf */; };
 		28706B662517EB1D007572F0 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28706B5C2517EB1D007572F0 /* Rubik-LightItalic.ttf */; };
 		28706B672517EB1D007572F0 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28706B5D2517EB1D007572F0 /* Rubik-Black.ttf */; };
+		28D8AB072518AE4C0064DABE /* PlayerTouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		28706B5B2517EB1D007572F0 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
 		28706B5C2517EB1D007572F0 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		28706B5D2517EB1D007572F0 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTouchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -390,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				28706B2F2517E878007572F0 /* TapRouletteMainV.swift */,
+				28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */,
 			);
 			path = TapRoulette;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				286B191D2517C08300D30546 /* ReuseIdentifiersCo.swift in Sources */,
 				286B18E22517BD2A00D30546 /* DevicesEn.swift in Sources */,
 				286B19132517C05900D30546 /* UserDefaultsCo.swift in Sources */,
+				28D8AB072518AE4C0064DABE /* PlayerTouchButton.swift in Sources */,
 				286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */,
 				286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */,
 				28706B302517E878007572F0 /* TapRouletteMainV.swift in Sources */,
