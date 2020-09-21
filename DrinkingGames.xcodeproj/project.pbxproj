@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283064742518A0BC00D5C305 /* GameBackgroundV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283064732518A0BC00D5C305 /* GameBackgroundV.swift */; };
 		286B18832517B7E400D30546 /* DrinkingGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B18822517B7E400D30546 /* DrinkingGamesApp.swift */; };
 		286B18872517B7E400D30546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286B18862517B7E400D30546 /* Assets.xcassets */; };
 		286B188A2517B7E400D30546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286B18892517B7E400D30546 /* Preview Assets.xcassets */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		283064732518A0BC00D5C305 /* GameBackgroundV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBackgroundV.swift; sourceTree = "<group>"; };
 		286B187F2517B7E400D30546 /* DrinkingGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkingGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286B18822517B7E400D30546 /* DrinkingGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingGamesApp.swift; sourceTree = "<group>"; };
 		286B18862517B7E400D30546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +148,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283064712518A04900D5C305 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				283064732518A0BC00D5C305 /* GameBackgroundV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		286B18762517B7E400D30546 = {
 			isa = PBXGroup;
 			children = (
@@ -387,6 +397,7 @@
 		28706B472517E948007572F0 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				283064712518A04900D5C305 /* Views */,
 				28706B482517E95A007572F0 /* Effects */,
 			);
 			path = Global;
@@ -582,6 +593,7 @@
 				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
 				28706B002517DA70007572F0 /* BottomBar.swift in Sources */,
 				28706B432517E8BD007572F0 /* GameSelectionMainV.swift in Sources */,
+				283064742518A0BC00D5C305 /* GameBackgroundV.swift in Sources */,
 				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
 				28706B3D2517E88E007572F0 /* FortuneWheelMainV.swift in Sources */,
 				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
