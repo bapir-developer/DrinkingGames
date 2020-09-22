@@ -34,12 +34,10 @@ struct FortuneWheelMainV: View {
             self.presentationMode.wrappedValue.dismiss()
         }) {
             HStack {
-            Image("backButton")
+            Image("ButtonBack")
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fit)
                 //.foregroundColor(.white)
-                
-                
             }
         }
     }
@@ -49,7 +47,7 @@ struct FortuneWheelMainV: View {
         let width:  CGFloat = 380
         
         
-        return Image("FortuneWheel")
+        return Image("ImageFortuneWheel")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: width, height: height)
@@ -74,7 +72,7 @@ struct FortuneWheelMainV: View {
             self.isRotating.toggle()
             self.isRotating.toggle()
         }) {
-            Image("redspinbutton")
+            Image("ButtonSpin")
                 .renderingMode(.original)
                 .resizable()
                 .scaledToFit()
