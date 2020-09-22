@@ -94,7 +94,7 @@ extension LuckyBottleMainV: ButtonActionDelegate {
         }
 }
 
-struct AddYourOwnRolesView_Previews: PreviewProvider {
+struct LuckyBottleMainV_Previews: PreviewProvider {
     static var previews: some View {
         LuckyBottleMainV()
     }
