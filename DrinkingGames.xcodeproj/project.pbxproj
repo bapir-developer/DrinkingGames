@@ -52,6 +52,8 @@
 		28706B662517EB1D007572F0 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28706B5C2517EB1D007572F0 /* Rubik-LightItalic.ttf */; };
 		28706B672517EB1D007572F0 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28706B5D2517EB1D007572F0 /* Rubik-Black.ttf */; };
 		287E1253251A4008004F1450 /* PlayerCountV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1252251A4008004F1450 /* PlayerCountV.swift */; };
+		287E125B251A4CA5004F1450 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E125A251A4CA5004F1450 /* FortuneWheel.swift */; };
+		287E1260251A4CC4004F1450 /* FortuneWheelV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E125F251A4CC4004F1450 /* FortuneWheelV.swift */; };
 		28D8AB072518AE4C0064DABE /* PlayerTouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */; };
 		28D8AB0D2518AFC50064DABE /* TapRouletteGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8AB0C2518AFC50064DABE /* TapRouletteGameScene.swift */; };
 /* End PBXBuildFile section */
@@ -125,6 +127,8 @@
 		28706B5C2517EB1D007572F0 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		28706B5D2517EB1D007572F0 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
 		287E1252251A4008004F1450 /* PlayerCountV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCountV.swift; sourceTree = "<group>"; };
+		287E125A251A4CA5004F1450 /* FortuneWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel.swift; sourceTree = "<group>"; };
+		287E125F251A4CC4004F1450 /* FortuneWheelV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelV.swift; sourceTree = "<group>"; };
 		28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTouchButton.swift; sourceTree = "<group>"; };
 		28D8AB0C2518AFC50064DABE /* TapRouletteGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRouletteGameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -380,6 +384,8 @@
 			isa = PBXGroup;
 			children = (
 				28706B3C2517E88E007572F0 /* FortuneWheelMainV.swift */,
+				287E125A251A4CA5004F1450 /* FortuneWheel.swift */,
+				287E125F251A4CC4004F1450 /* FortuneWheelV.swift */,
 			);
 			path = FortuneWheel;
 			sourceTree = "<group>";
@@ -584,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287E1260251A4CC4004F1450 /* FortuneWheelV.swift in Sources */,
 				286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */,
 				28706B382517E882007572F0 /* LuckyBottleMainV.swift in Sources */,
 				286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */,
@@ -613,6 +620,7 @@
 				286B18E22517BD2A00D30546 /* DevicesEn.swift in Sources */,
 				286B19132517C05900D30546 /* UserDefaultsCo.swift in Sources */,
 				28D8AB072518AE4C0064DABE /* PlayerTouchButton.swift in Sources */,
+				287E125B251A4CA5004F1450 /* FortuneWheel.swift in Sources */,
 				287E1253251A4008004F1450 /* PlayerCountV.swift in Sources */,
 				286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */,
 				286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */,
