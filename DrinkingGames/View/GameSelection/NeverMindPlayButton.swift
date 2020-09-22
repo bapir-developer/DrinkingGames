@@ -36,7 +36,7 @@ struct NeverMindPlayButton: View {
         
     }
     private var playButton:         some View {
-        NavigationLink( destination: AddingPlayerV(acColor: $acColor), label: {
+        NavigationLink( destination: AddingPlayerMainV(acColor: $acColor), label: {
             
             HStack(spacing: 6){
                 Text("Play Now")

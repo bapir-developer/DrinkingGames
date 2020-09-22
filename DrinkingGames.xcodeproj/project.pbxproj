@@ -34,7 +34,6 @@
 		28706B002517DA70007572F0 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706AFF2517DA70007572F0 /* BottomBar.swift */; };
 		28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B082517DD9F007572F0 /* GamePlayButton.swift */; };
 		28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B112517E128007572F0 /* NeverMindPlayButton.swift */; };
-		28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B182517E420007572F0 /* AddingPlayerV.swift */; };
 		28706B232517E5FF007572F0 /* LangSelectionV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B222517E5FF007572F0 /* LangSelectionV.swift */; };
 		28706B302517E878007572F0 /* TapRouletteMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B2F2517E878007572F0 /* TapRouletteMainV.swift */; };
 		28706B382517E882007572F0 /* LuckyBottleMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B372517E882007572F0 /* LuckyBottleMainV.swift */; };
@@ -54,6 +53,17 @@
 		287E1253251A4008004F1450 /* PlayerCountV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1252251A4008004F1450 /* PlayerCountV.swift */; };
 		287E125B251A4CA5004F1450 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E125A251A4CA5004F1450 /* FortuneWheel.swift */; };
 		287E1260251A4CC4004F1450 /* FortuneWheelV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E125F251A4CC4004F1450 /* FortuneWheelV.swift */; };
+		287E1266251A4F51004F1450 /* PlayerTableAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1265251A4F51004F1450 /* PlayerTableAlert.swift */; };
+		287E1270251A55E1004F1450 /* AddingPlayerMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E126F251A55E1004F1450 /* AddingPlayerMainV.swift */; };
+		287E1275251A5614004F1450 /* PlayerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1274251A5614004F1450 /* PlayerTVCell.swift */; };
+		287E127D251A563C004F1450 /* PlayerTVContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E127C251A563C004F1450 /* PlayerTVContainer.swift */; };
+		287E1282251A5654004F1450 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1281251A5654004F1450 /* PlayerList.swift */; };
+		287E1288251A5672004F1450 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1287251A5672004F1450 /* GradientButton.swift */; };
+		287E128F251A56B4004F1450 /* PlayerTVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E128E251A56B4004F1450 /* PlayerTVDelegate.swift */; };
+		287E1297251A56C8004F1450 /* PlayerTVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E1296251A56C8004F1450 /* PlayerTVDataSource.swift */; };
+		287E129C251A56E5004F1450 /* PlayerTVContainerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E129B251A56E5004F1450 /* PlayerTVContainerVM.swift */; };
+		287E12B3251A5791004F1450 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E12B2251A5791004F1450 /* Player.swift */; };
+		287E12DE251A5854004F1450 /* ModeSelectionMainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E12DD251A5854004F1450 /* ModeSelectionMainV.swift */; };
 		28D8AB072518AE4C0064DABE /* PlayerTouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */; };
 		28D8AB0D2518AFC50064DABE /* TapRouletteGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8AB0C2518AFC50064DABE /* TapRouletteGameScene.swift */; };
 /* End PBXBuildFile section */
@@ -109,7 +119,6 @@
 		28706AFF2517DA70007572F0 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		28706B082517DD9F007572F0 /* GamePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayButton.swift; sourceTree = "<group>"; };
 		28706B112517E128007572F0 /* NeverMindPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindPlayButton.swift; sourceTree = "<group>"; };
-		28706B182517E420007572F0 /* AddingPlayerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlayerV.swift; sourceTree = "<group>"; };
 		28706B222517E5FF007572F0 /* LangSelectionV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangSelectionV.swift; sourceTree = "<group>"; };
 		28706B2F2517E878007572F0 /* TapRouletteMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRouletteMainV.swift; sourceTree = "<group>"; };
 		28706B372517E882007572F0 /* LuckyBottleMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyBottleMainV.swift; sourceTree = "<group>"; };
@@ -129,6 +138,17 @@
 		287E1252251A4008004F1450 /* PlayerCountV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCountV.swift; sourceTree = "<group>"; };
 		287E125A251A4CA5004F1450 /* FortuneWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel.swift; sourceTree = "<group>"; };
 		287E125F251A4CC4004F1450 /* FortuneWheelV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelV.swift; sourceTree = "<group>"; };
+		287E1265251A4F51004F1450 /* PlayerTableAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableAlert.swift; sourceTree = "<group>"; };
+		287E126F251A55E1004F1450 /* AddingPlayerMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlayerMainV.swift; sourceTree = "<group>"; };
+		287E1274251A5614004F1450 /* PlayerTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTVCell.swift; sourceTree = "<group>"; };
+		287E127C251A563C004F1450 /* PlayerTVContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTVContainer.swift; sourceTree = "<group>"; };
+		287E1281251A5654004F1450 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
+		287E1287251A5672004F1450 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		287E128E251A56B4004F1450 /* PlayerTVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTVDelegate.swift; sourceTree = "<group>"; };
+		287E1296251A56C8004F1450 /* PlayerTVDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTVDataSource.swift; sourceTree = "<group>"; };
+		287E129B251A56E5004F1450 /* PlayerTVContainerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTVContainerVM.swift; sourceTree = "<group>"; };
+		287E12B2251A5791004F1450 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		287E12DD251A5854004F1450 /* ModeSelectionMainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionMainV.swift; sourceTree = "<group>"; };
 		28D8AB062518AE4C0064DABE /* PlayerTouchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTouchButton.swift; sourceTree = "<group>"; };
 		28D8AB0C2518AFC50064DABE /* TapRouletteGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRouletteGameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				283064732518A0BC00D5C305 /* GameBackgroundV.swift */,
+				287E1265251A4F51004F1450 /* PlayerTableAlert.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				28706AF92517D89C007572F0 /* LifeCycle */,
+				287E128C251A5690004F1450 /* NeverMind */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -284,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				286B18C82517BA7600D30546 /* PlayerManager.swift */,
+				287E12B2251A5791004F1450 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -375,7 +398,8 @@
 		28706B172517E3F6007572F0 /* NeverMind */ = {
 			isa = PBXGroup;
 			children = (
-				28706B182517E420007572F0 /* AddingPlayerV.swift */,
+				287E126A251A4F9E004F1450 /* AddingPlayers */,
+				287E12D8251A5815004F1450 /* ModeSelection */,
 			);
 			path = NeverMind;
 			sourceTree = "<group>";
@@ -449,6 +473,44 @@
 				28706B592517EB1D007572F0 /* Rubik-Regular.ttf */,
 			);
 			path = Rubik;
+			sourceTree = "<group>";
+		};
+		287E126A251A4F9E004F1450 /* AddingPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				287E126F251A55E1004F1450 /* AddingPlayerMainV.swift */,
+				287E1274251A5614004F1450 /* PlayerTVCell.swift */,
+				287E127C251A563C004F1450 /* PlayerTVContainer.swift */,
+				287E1281251A5654004F1450 /* PlayerList.swift */,
+				287E1287251A5672004F1450 /* GradientButton.swift */,
+			);
+			path = AddingPlayers;
+			sourceTree = "<group>";
+		};
+		287E128C251A5690004F1450 /* NeverMind */ = {
+			isa = PBXGroup;
+			children = (
+				287E128D251A5696004F1450 /* AddingPlayers */,
+			);
+			path = NeverMind;
+			sourceTree = "<group>";
+		};
+		287E128D251A5696004F1450 /* AddingPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				287E128E251A56B4004F1450 /* PlayerTVDelegate.swift */,
+				287E1296251A56C8004F1450 /* PlayerTVDataSource.swift */,
+				287E129B251A56E5004F1450 /* PlayerTVContainerVM.swift */,
+			);
+			path = AddingPlayers;
+			sourceTree = "<group>";
+		};
+		287E12D8251A5815004F1450 /* ModeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				287E12DD251A5854004F1450 /* ModeSelectionMainV.swift */,
+			);
+			path = ModeSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -590,28 +652,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287E12B3251A5791004F1450 /* Player.swift in Sources */,
 				287E1260251A4CC4004F1450 /* FortuneWheelV.swift in Sources */,
 				286B190C2517BEE200D30546 /* NeverMindModeEn.swift in Sources */,
+				287E12DE251A5854004F1450 /* ModeSelectionMainV.swift in Sources */,
+				287E1266251A4F51004F1450 /* PlayerTableAlert.swift in Sources */,
 				28706B382517E882007572F0 /* LuckyBottleMainV.swift in Sources */,
 				286B18FA2517BE1400D30546 /* NeverMindGameEn.swift in Sources */,
 				28706B4A2517E986007572F0 /* VisualEffectV.swift in Sources */,
 				286B19182517C06A00D30546 /* DeviceAttributesCo.swift in Sources */,
+				287E1282251A5654004F1450 /* PlayerList.swift in Sources */,
+				287E128F251A56B4004F1450 /* PlayerTVDelegate.swift in Sources */,
+				287E1275251A5614004F1450 /* PlayerTVCell.swift in Sources */,
 				28706B092517DD9F007572F0 /* GamePlayButton.swift in Sources */,
 				286B18E72517BD9600D30546 /* FontsEn.swift in Sources */,
 				286B18C02517B9FF00D30546 /* ButtonActionDelegate.swift in Sources */,
 				286B18FF2517BE3500D30546 /* NeverMindRoundEn.swift in Sources */,
 				286B18CF2517BAC600D30546 /* AnchorEx.swift in Sources */,
-				28706B192517E420007572F0 /* AddingPlayerV.swift in Sources */,
 				286B18B32517B9BB00D30546 /* ReturnPlayerManagerDelegate.swift in Sources */,
 				28706B232517E5FF007572F0 /* LangSelectionV.swift in Sources */,
+				287E1297251A56C8004F1450 /* PlayerTVDataSource.swift in Sources */,
 				286B193A2517C5E000D30546 /* PulseAn.swift in Sources */,
 				286B18DD2517BBAF00D30546 /* ColorsEn.swift in Sources */,
 				286B18C92517BA7600D30546 /* PlayerManager.swift in Sources */,
+				287E127D251A563C004F1450 /* PlayerTVContainer.swift in Sources */,
+				287E129C251A56E5004F1450 /* PlayerTVContainerVM.swift in Sources */,
 				28706B002517DA70007572F0 /* BottomBar.swift in Sources */,
 				28706B432517E8BD007572F0 /* GameSelectionMainV.swift in Sources */,
 				283064742518A0BC00D5C305 /* GameBackgroundV.swift in Sources */,
 				286B19072517BEA600D30546 /* LanguagesEn.swift in Sources */,
 				28706B3D2517E88E007572F0 /* FortuneWheelMainV.swift in Sources */,
+				287E1288251A5672004F1450 /* GradientButton.swift in Sources */,
 				286B18BB2517B9DB00D30546 /* LangSelectionDelegate.swift in Sources */,
 				28D8AB0D2518AFC50064DABE /* TapRouletteGameScene.swift in Sources */,
 				28706B122517E128007572F0 /* NeverMindPlayButton.swift in Sources */,
@@ -623,6 +694,7 @@
 				287E125B251A4CA5004F1450 /* FortuneWheel.swift in Sources */,
 				287E1253251A4008004F1450 /* PlayerCountV.swift in Sources */,
 				286B18F42517BDD200D30546 /* FortuneWheelEn.swift in Sources */,
+				287E1270251A55E1004F1450 /* AddingPlayerMainV.swift in Sources */,
 				286B18D72517BB6400D30546 /* UIViewEx.swift in Sources */,
 				28706B302517E878007572F0 /* TapRouletteMainV.swift in Sources */,
 			);
